@@ -119,3 +119,9 @@
 - $git stash pop
 暂时将未提交的变化移除,稍后再移入
 
+- git remote add origin [github]
+与github建立连接；
+
+- git push origin master
+将文件添加到主枝上；即将文件添加到github上；
+
