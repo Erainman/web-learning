@@ -123,10 +123,33 @@
 后者的所有变化都将被前者抵消,并且应用到当前分支
 - **$git stash pop**
 暂时将未提交的变化移除,稍后再移入
-
 - **git remote add origin [github]**
 与github建立连接；
-
 - **git push origin master**
 将文件添加到主枝上；即将文件添加到github上；
+
+```
+ 		  * git config --global user.name "xieran"
+          * git config --global user.email "xxx@qq.com"
+          * git config --global alias.st status
+          * git config --global alias.br branch
+          * git config --global alias.co checkout
+          * git config --global alias.ci commit
+          * git init 在一个文件夹的.git文件夹下初始化一个仓库
+          * git status 查看当前仓库的状态
+          * git add file.txt 添加file.txt到待提交区
+          * git add . 添加当前文件夹里的所有文件
+          * git commit -m "提交信息"
+          * git diff 显示被跟踪的文件的修改状态
+          * git log 查看提交日志/历史
+          * git merge
+          * git push/pull
+          * git push origin master
+          * git remote
+          * git fetch
+          * git checkout
+          * git branch
+            https://<username>.github.io/可以访问到<username>.github.io这个仓库里的资源
+            https://<username>.github.io/<repo_name>可以访问到repo_name这个仓库里的资源
+```
 
